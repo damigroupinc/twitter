@@ -1,0 +1,67 @@
+
+Church Of ChristApp
+Welcome to
+The
+is a practical, modern and simple tool to help brothers and sisters to have more fellowship with one another and 
+share Bible issues allowing the church to grow in life and maturity!
+
+O app Church Of Christ é uma ferramenta prática, 
+moderna e simples para ajudar os irmãos e irmãs a terem mais comunhão uns com os outros 
+e a compartilhar questões bíblicas permitindo à igreja e os irmãos crescerem em vida e maturidade!
+
+Board / Painel de Eventos
+
+Church Of Christ App
+has a board that will show the events, 
+the user will be notified of the new event and will be able to post their observations.
+ 
+O aplicativo Church Of Christ possui um Seção de Eventos, 
+que mostra os eventos da Igreja, o usuário será notificado sobre o novo evento 
+e poderá postar suas observações e confirmar presença.
+
+Agenda - Contatos
+
+Church Of Christ App
+has one shared agenda, all users have access to the phone book and with all sibling data.
+        
+tem uma agenda compartilhado, todos os usuários têm acesso aos contatos e a todos os dados dos irmãos.
+
+Wall - Mural da igreja
+
+Church Of Christ App
+has one shared wall, this mural will have public conversations 
+of the brothers, with some special information about the brother and sisters like manager birthday congratulations.
+        
+tem uma Mural compartihado, este mural terá conversas públicas dos irmãos, 
+com algumas informações especiais sobre os irmãos e irmãs, 
+como parabéns pelo aniversário do gerente.
+
+
+
+	
+
+New functions incorporated in Maint247:
+1-Payment of someone with PayPal, Credit Card and others.
+2-management of contracts including receipts.
+
+
+Welcome to
+Church Of Christ
+
+The Church Of Christ app is a practical,
+modern and simple tool to help brothers and sisters to have more fellowship with one another and
+share Bible issues allowing the church to grow in life and maturity!
+
+Board
+Church Of Christ app has a board that will show the events of the Church of Christ,
+the user will be notified of the new event and will be able to post their observations.
+
+Agenda
+Church Of Christ app has one shared agenda, all users have access to the phone book and
+with all sibling data.
+
+Wall
+Church Of Christ app has one shared wall, this mural will have public conversations
+of the brothers, with some special information about the brother and sisters like manager birthday
+congratulations.
+

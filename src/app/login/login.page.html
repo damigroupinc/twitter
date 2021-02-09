@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+      <ion-title>
+        {{ global.name }} - Login
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class='ion-padding' class='loginPage' scroll='true'>
+  <ion-grid style='height: 100%'>
+    <ion-row class="ion-align-items-center ion-justify-content-center" style='height: 80%'>
+      <ion-grid class='login-container'>
+        <ion-row class='ion-align-items-center ion-justify-content-center'>
+         
+        </ion-row>
+        <ion-row>
+          <form #loginForm='ngForm' (ngSubmit)='goLogin()' autocomplete='off' class='login-form'>
+            <ion-card>
+            <ion-card-content>
+              <ion-row>
+                  <ion-col>
+                  <ion-list inset>
+                    <ion-item>
+                      <ion-label position="floating" color="primary">Username</ion-label>
+                      <ion-input name='username' id='loginField' type='text' required [(ngModel)]="username">
+                      </ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-label position="floating" color="primary">Password</ion-label>
+                      <ion-input name='password' id='passwordField' type='password' required [(ngModel)]='password'>
+                      </ion-input>
+                    </ion-item>
+                  </ion-list>
+                </ion-col>
+              </ion-row>
+            </ion-card-content>
+            <div align="center">
+
+              <ion-col class="ion-align-items-center">
+                <ion-button color='secondary' size="small" id='login' small full fulltype='submit' (click)='goLogin()'
+                  [disabled]='!loginForm.form.valid'>
+                  <ion-icon name='sync'></ion-icon>
+                  Sign-in
+                </ion-button>
+
+                <ion-button color='secondary' size="small" id='register' small full fulltype='submit'
+                  (click)='register()'>
+                  <ion-icon name='add'></ion-icon>
+                  Sign-up
+                </ion-button>
+
+                <ion-button color='warning' size="small" id='recover' small full fulltype='submit' (click)='recover()'>
+                  <ion-icon name='key'></ion-icon>
+                  Forgot Password
+                </ion-button>
+               
+
+              </ion-col>
+              <br> <br>
+            </div>
+          </ion-card>
+          
+          </form>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+{{global.name}} Version: {{global.version}}

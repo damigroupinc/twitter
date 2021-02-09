@@ -1,0 +1,26 @@
+[
+    {
+        "PAGE_LAYOUT": [
+            {
+                "name": "MakeSingin",
+                "title": "Home"
+            }
+        ]
+    },
+    {
+        "PAGE_BUTTONS": [
+            {
+                "icon": "bsign-in.png",
+                "label": "Sign-in"
+            },
+            {
+                "icon": "bsign-out.png ",
+                "label": "Sign-Out"
+            },
+            {
+                "icon": "breport.png",
+                "label": "Report"
+            }
+        ]
+    }   
+]

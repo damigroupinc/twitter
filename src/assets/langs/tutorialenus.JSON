@@ -1,0 +1,54 @@
+[
+    {
+        "PAGE_LAYOUT": [
+            {
+                "name": "CleanApp",
+                "title": "Tutorial"
+            }
+        ]
+    },
+    {
+        "PAGE_BUTTONS": [
+            {
+                "icon": "blogin.png",
+                "label": "Sign in"
+            },
+            {
+                "icon": "bsign-up.png ",
+                "label": "Sign up"
+            },
+            {
+                "icon": "brecoverpassword.png",
+                "label": "Forgot Password"
+            }
+        ]
+    },
+    {
+        "PAGE_SLIDES": [
+            {
+                "id": 1,
+                "img": "slide1.jpg",
+                "title": "BEAUTY, CLEAN AND HYGIENED",
+                "text": "CleanApp is a practical, modern and simple tool to help to Keeping everything clean and clear"
+            },
+            {
+                "id": 2,
+                "img": "slide2.jpg",
+                "title": "BEAUTY, PERFECT AND, ORGANIZED",
+                "text": "Our professionals are able to clean, sanitize, perfum and organize in a way that puts everything in its proper places providing you with a comfortable, healthy, smelling and pleasant environment to spend long happy hours."
+            },
+            {
+                "id": 3,
+                "img": "slide3.jpg",
+                "title": "BEAUTY, CLEAR AND SANITIZED",
+                "text": "The biggest sources of direct contamination and transmission of diseases, in general, are the bathrooms, bedrooms, carpets and rugs, utensils used routinely and used by pets, kitchen, sponges, dishcloth, refrigerator and main food storage locations."
+            },
+            {
+                "id": 4,
+                "img": "slide4.jpg",
+                "title": "ADEQUATE AND HIGH QUALITY MATERIAL",
+                "text": "All the houses are different, we know well the surfaces and objects that are common the homes of our clients, cleaning products more suitable and appropriate for each environment, some environments require, in addition to cleaning products, hygiene products because need to be disinfected."
+            }
+        ]
+    }
+]

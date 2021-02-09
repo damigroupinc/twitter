@@ -1,0 +1,54 @@
+<!-- <ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">cleaning-details</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+
+  <div class="header_div" [class.ios_header]="plt == 'ios'">
+    <ion-label class="title_lbl">Cleaning Details - How often </ion-label>
+    <ion-button (click)="goBack()" fill="clear" class="back">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <div class="main_content_div" [class.ios_main]="plt == 'ios'">
+    <ion-label class="simple_lbl">Choose your Requirements</ion-label>
+
+     <ion-card>
+    <ion-card-content>
+
+    <ion-label class="small_lbl" > How often do you want the house cleaned ? </ion-label>
+    
+    <div class="light_div">
+      <div class="lbl_div" [class.active]="frequence == 1" (click)="choosefrequence(1)">
+        <ion-label>Just once</ion-label>
+      </div>
+      <div class="lbl_div" [class.active]="frequence == 2" (click)="choosefrequence(2)">
+        <ion-label>Every week</ion-label>
+      </div>
+      <div class="lbl_div" [class.active]="frequence == 3" (click)="choosefrequence(3)">
+        <ion-label>Every two weeks</ion-label>
+      </div>
+      <div class="lbl_div" [class.active]="frequence == 4" (click)="choosefrequence(4)">        
+        <ion-label>Once a month</ion-label>
+      </div>
+    </div>   
+
+</ion-card-content>
+</ion-card>
+
+    
+
+    <div class="btn_div">
+      <ion-button (click)="goToCleaningDetail2()" shape="round">
+        Next <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </div>    
+
+  </div>
+</ion-content>

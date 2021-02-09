@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{global.name}} - Recover Password</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" class='loginPage' scroll='false'>
+  <ion-grid style='height: 100%'>
+    <ion-row class="ion-align-items-center ion-justify-content-center" style='height: 80%'>
+      <ion-grid class='login-container'>
+
+        <form #loginForm='ngForm' (ngSubmit)='sendEmailChangePassword()' autocomplete='off' class='login-form'>
+          <ion-card>
+            <ion-card-content>
+              <ion-row>
+                <ion-col>
+                  <ion-list inset>
+                    <ion-item>
+                      <ion-label  color="primary" position="floating">Email</ion-label>
+                      <ion-input name='email' id='email' type='text' required [(ngModel)]='email'
+                        style="background-Color: '#red';">
+                      </ion-input>
+                    </ion-item>
+                    <br>
+                    <div align="center">
+                      <ion-button color="success" size="small" class="pt-xs--4" ion-button
+                        (click)="sendEmailChangePassword()" [disabled]='!loginForm.form.valid'>
+                        <ion-icon name="checkmark-circle" size="small"></ion-icon>
+                        Submit
+                      </ion-button>
+                    </div>
+                  </ion-list>
+                </ion-col>
+              </ion-row>
+            </ion-card-content>
+          </ion-card>
+        </form>
+
+      </ion-grid>
+    </ion-row>
+  </ion-grid>
+</ion-content>

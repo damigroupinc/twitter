@@ -1,0 +1,27 @@
+ion-content, ion-footer {
+  --ion-background-color:  #caf1f1;
+}
+
+.login-logo{
+  vertical-align: center;
+  text-align: center;
+  background-color: #edf1f1;
+}
+
+.login-form{
+  --ion-background-color: #edf1f1;
+  opacity: 2!important;
+}
+
+ion-card, .card-ios, .card-md {
+  background:#edf1f1 80% !important;
+  border-radius:20px !important;
+  border-top: 2px solid #edf1f1 !important;
+  border-right: 2px solid #edf1f1 !important;
+  border-left: 2px solid #edf1f1 !important;
+  border-bottom: 2px solid #edf1f1 !important;
+  box-shadow: 20px;
+  border-radius:20px !important;
+  box-shadow: 20;
+  margin-top: 100px;
+}

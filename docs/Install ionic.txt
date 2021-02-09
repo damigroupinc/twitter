@@ -1,0 +1,28 @@
+Clone o repositorio
+Coloque no dir damigroupinc.com\projects\icleaner247.com\app
+1-instale o ionic se ainda nao tiver: 
+    baixe o node aqui:
+        https://nodejs.org/en/
+    instalar o npm executando o arquivo que fez o download
+    execute o instalador do node para instalar o ionic
+        npm install -g @ionic/cli
+    agora o ionic esta instalado.
+
+2-dentro do diretorio damigroupinc.com\projects\icleaner247.com\app
+    execute: ionic serve
+
+3-para instalar a API certifique-se de instalar antes o postman.com
+
+4-copiar uma API completa com login passport e permissao para acesso cruzado COR 
+    A API mais recente e mais elaborada e o icleaner247.com que permite login automatico
+    com senha laravel e tudo mais. Otimo.
+    para acessar o icleaner247.com no servidor hostgator 
+    host: 162.241.3.30
+    user: icleaner247
+    senha: cvb@6810$L 
+
+5-teste no postman:
+    https://www.makesignin.com/api/auth/login?email=emiliodami@gmail.com&password=12345678
+
+
+    

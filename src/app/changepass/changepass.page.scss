@@ -1,0 +1,51 @@
+ion-content, ion-footer {
+    --ion-background-color:  #009ce1;
+  }
+
+img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5%;
+}
+    
+ion-card, .card-ios, .card-md {
+    border-radius:20px !important;
+    box-shadow: 20;
+} 
+
+ion-content, ion-footer {
+    --ion-background-color:  #009ce1;
+  }
+  
+  .login-container {
+      border-radius: 20px;
+      opacity:0.8;
+      width: 50%;
+      text-align: center;
+      background-color:#b6eaf0;
+    }
+  
+    .login-logo{
+        vertical-align: center;
+        text-align: center;
+        background-color: white;
+    }
+  
+    .login-form{
+      --ion-background-color: #b6eaf0;
+        opacity: 2!important;
+    }
+  
+    .redCssClassName {
+      .toast-wrapper {
+        background: red;
+        opacity: 0.8;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .toast-message {
+        font-size: 3.0rem;
+        color: white;
+      }
+    }
+  

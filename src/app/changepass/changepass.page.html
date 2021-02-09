@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ global.name }} Change Password</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class='ion-padding' class='loginPage' scroll='false'>
+  <ion-card>
+    <ion-card-content>
+
+      <ion-grid style='height: 100%'>
+        <ion-row class="ion-align-items-center ion-justify-content-center" style='height: 80%'>
+          <ion-grid class='login-container'>
+            <form #loginForm='ngForm' (ngSubmit)='changePasswordUser()' autocomplete='off' class='login-form'>
+              <ion-card>
+                <ion-card-content>
+
+                  <ion-item>
+                    <ion-label>Current Password</ion-label>
+                    <ion-input #inputCurrent placeholder='current password' name='currentpassword' id='currentpassword'
+                      type='password' required [(ngModel)]='currentpassword' style="background-Color: '#red';"
+                      (focusout)='checkCurrentPassword(inputCurrent)'>
+                      <!-- ionBlur work for focus out -->
+                    </ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label>New Password</ion-label>
+                    <ion-input #inputnew password placeholder='newpassword' name='newpassword' id='newpassword'
+                      type='password' required [(ngModel)]='newpassword'>
+                    </ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label>Confirm Password</ion-label>
+                    <ion-input #inputConfirm password placeholder='confirmpassword' name='confirmpassword'
+                      id='confirmpassword' type='password' required [(ngModel)]='confirmpassword'
+                      style="background-Color: '#red';" (focusout)='checkConfirmPassword(inputnew)'>
+                    </ion-input>
+                  </ion-item>
+                  <div align="center">
+                    <ion-button color="success" size="small" class="pt-xs--4" ion-button (click)="changePasswordUser()"
+                      [disabled]='!loginForm.form.valid'>
+                      <ion-icon name="checkmark-circle" size="small"></ion-icon>
+                      Submit
+                    </ion-button>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+            </form>
+          </ion-grid>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
