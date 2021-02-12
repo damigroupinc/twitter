@@ -52,6 +52,7 @@ export class LoginPage implements OnInit {
     }
     postData.email = this.username;
     postData.password = this.password;
+    console.log('ira fazer login com:', postData);
     this.http.post<InterfaceUsers>(this.global.urlServer + "auth/login", postData).
       subscribe(data => {
         this.dataUser = data; console.log('aqui o que retorna do login: ', data, this.global.urlServer);
